@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="Form.css">
+    <script>
+        function validateForm() {
+            let x = document.forms["Form"]["FName"].value;
+            if (x == "") {
+                alert("First Name must be filled out");
+                return false;
+            }
+            let y = document.forms["Form"]["LName"].value;
+            if (y == "") {
+                alert("Last Name must be fillled out");
+                return false;
+            }
+            let z = document.forms["Form"]["Email"].value;
+            if (z == "") {
+                alert("Email must be fillled out");
+                return false;
+            }
+            let b = document.forms["Form"]["comment"].value;
+
+            let a = document.forms["Form"]["rate"].value;
+            if (a == "") {
+                alert("A kind request to rate our website :");
+                return false;
+            }
+            alert("Dear " + x + " Thank you very much for your feedback.You have rated our site as " + a + " and your comment was " + b + ".");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="images/logo.png" alt="logo"> </div>
+    <div class="bg">
+        <form name="Form" onsubmit="return validateForm()" method="POST">
+            <div class="form">
+                <label>First Name : <input class="name" type="text" name="FName" placeholder="Ariana"></label>
+                <label>Last Name : <input class="name" type="text" name="LName" placeholder="Grande"></label>
+                <br></br>
+                <label>Email :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="email" type="email" name="Email" placeholder="arianagrande@hotmail.com"><br></br></label>
+                <label>Comments : <br></br><textarea name="comment">...</textarea><br></br></label>
+                <label>Rate our website:</label><br></br>
+                <select name="rate" placeholder="..">
+                    <option value="Execellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Average">Average</option>
+                    <option value="Bad">Bad</option>
+                  </select><br></br>
+                <input class="button" value="submit" type="submit" placeholder="Submit" method="POST">
+                <br></br>
+                <input class="secondbutton" value="reset" type="reset" placeholder="Clear">
+            </div>
+        </form>
+        <a href="editorsPage-vishmi.html">
+            <h4>
+                <center>Editors Page</center>
+            </h4>
+        </a>
+    </div>S
+</body>
+
+
+
+</html>

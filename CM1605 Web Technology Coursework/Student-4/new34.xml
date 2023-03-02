@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="style.css" ?>
+<website>
+   <h1>BuyAnything.com</h1>
+   <menu>
+      <li>nvidia gtx 1060 -powerful gaming gpu at a price $460</li>
+	  <li5>intel xeon x50 -workstation cpu price-$480</li5>
+	  <li2>ASUS monitor -$320</li2>
+	  <li3>SAMSUNG M32 -$280</li3>
+	  <li4>Sharp 40 inch TV-$210</li4>
+	  <li6>vivo m3- $320</li6>
+	  <li7>Sharp 40inch TV -$360</li7>
+	  <li8>POCO m3 phone -$210</li8>
+	  <li9>MSI g5 gaming laptop -$960</li9>
+	  <li10>dell q6 mouse -$30</li10>
+	  
+   </menu>
+</website>
+	

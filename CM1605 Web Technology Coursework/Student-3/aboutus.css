@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* common styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #8e8b8b;
+    background-image: url('bgimg1.jpg');
+}
+
+
+/* end  */
+
+
+/* main content */
+
+.wrapper {
+    margin-top: 50px;
+}
+
+.page-heading h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #dbddd8;
+    animation: reverse;
+    animation-duration: 2s;
+}
+
+.page-heading img {
+    width: 120px;
+    display: inline;
+}
+
+.team {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.team .team_member {
+    background: #dbddd8;
+    margin: 5px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.member_img span {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    margin-top: 85px;
+    left: 0;
+    margin-left: 60px;
+    color: rgb(27, 26, 26);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.member_img:hover .details {
+    visibility: visible;
+    opacity: 1;
+}
+
+figure:hover img {
+    -webkit-filter: grayscale(50%) blur(4px);
+    filter: grayscale(50%) blur(4px);
+}
+
+.team .team_member .member_img img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+
+
+/* end */
+
+
+/* developer button */
+
+.developer button {
+    justify-content: center;
+    margin-left: 42%;
+    margin-bottom: 50px;
+    padding: 3px;
+    bottom: 0;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    color: #050505;
+    background-color: rgb(247, 248, 248);
+    border-radius: 10px;
+    border: 1px solid #383838;
+    font-family: 'Merriweather', serif;
+}
+
+.developer button:hover {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.developer a {
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* end */

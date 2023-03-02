@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 90%;
+    height: 75%;
+}
+
+.form {
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    width: 700;
+    margin-top: 4px;
+    border-radius: 4%;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    align-content: center;
+    margin-left: 400px;
+    margin-top: 1px;
+}
+
+input {
+    border-radius: 4px;
+}
+
+.button,
+.secondbutton {
+    background-color: #626363;
+    color: #fafafa;
+    white-space: nowrap;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.email {
+    margin-left: 4px;
+    width: 200px;
+}
+
+textarea {
+    width: 300px;
+}
+
+.rate {
+    width: 40px;
+    border-radius: 3px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+h4:hover {
+    text-decoration: underline;
+}
+
+a {
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    align-items: center;
+    height: 170px;
+    margin-left: 550px;
+}

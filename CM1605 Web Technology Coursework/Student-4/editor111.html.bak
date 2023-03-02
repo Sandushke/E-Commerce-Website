@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <title>
+        Editor
+    </title>
+    <link rel="stylesheet" href="editorcss.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>About editor</h1>
+            <hr>
+
+            <div class="grid2">
+                <div>
+
+                    <img src="C:\Users\Dell\Downloads\mee.jpg" alt="pic">
+
+                </div>
+
+                <div class="details">
+                    <h2>Sandev Dias</h2>
+                    <p class="student-no">Student 4</p>
+
+                </div>
+
+                <div class="further-details">
+                    <p>
+                        RGU ID : 219144<br></br> IIT ID : 20210862<br></br> Email: sandev20210862@iit.ac.lk
+                    </p>
+                </div>
+
+                <div class="socialmedia">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+</body>
+
+</html>

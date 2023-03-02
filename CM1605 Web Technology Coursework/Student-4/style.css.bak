@@ -1,0 +1,83 @@
+website
+{
+	background-color:purple;
+}
+
+h1
+{
+	background-color:blue;
+	color:red;
+	font-size: 90px;
+}
+
+li
+{
+	display:block;
+	background:green;
+	font-size: 30px;
+	text-align:center;
+}
+
+li5
+{
+	display:block;
+	background:green;
+	text-align:center;
+	font-size: 30px;
+}
+li2
+{
+	display:block;
+	background:green;
+	text-align:center;
+	font-size: 30px;
+}
+li3
+{
+	display:block;
+	background:green;
+	text-align:center;
+	font-size: 30px;
+}
+li4
+{
+	display:block;
+	background:green;
+	text-align:center;
+	font-size: 30px;
+}
+li6
+{
+	display:block;
+	background:green;
+	text-align:center;
+	font-size: 30px;
+}
+li7
+{
+	display:block;
+	background:green;
+	text-align:center;
+	font-size: 30px;
+}
+li8
+{
+	display:block;
+	background:green;
+	text-align:center;
+	font-size: 30px;
+}
+li9
+{
+	display:block;
+	background:green;
+	text-align:center;
+	font-size: 30px;
+}
+li10
+{
+	display:block;
+	background:green;
+	text-align:center;
+	font-size: 30px;
+}

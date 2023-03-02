@@ -1,0 +1,49 @@
+<html>
+
+    <head>
+
+        <title>Dropdown</title>
+
+        <link rel="stylesheet" href="style1.css">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <button class="click">items</button>
+
+            <div class="list">
+
+                <button class="links">cpu</button>
+
+                <button class="links">gpu</button>
+
+                <button class="links">monitor</button>
+
+                <button class="links">keyboard</button>
+
+                <button class="links">mouse</button>
+
+            </div>
+
+        </div>
+
+        <script>
+
+            let click = document.querySelector('.click');
+
+            let list = document.querySelector('.list');
+
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+
+        </script>
+
+    </body>
+
+</html>

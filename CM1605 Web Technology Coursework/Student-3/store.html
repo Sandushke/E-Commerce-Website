@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SHOP</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" async></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+</head>
+
+<body>
+    <a href="../Student-2/mainpage.html">Go to home</a>
+
+    <!-- Secondary Navigation -->
+    <section>
+        <nav role="navigation" aria-label="secondary">
+            <div id="menuToggle">
+
+                <input type="checkbox" />
+
+                <span><i class='bx bx-font-size'></i></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                    <div id="textSizeButtons" class="buttons">
+                        <div class="size-buttons" id="small" data-text-size="15px" onclick="changeFontSize(15)">A-</div>
+                    </div>
+                    </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <div id="textSizeButtons" class="buttons">
+                                <div class="size-buttons" id="large" data-text-size="25px" onclick="changeFontSize(25)">A+</div>
+                            </div>
+                        </li>
+                    </a>
+                </ul>
+
+        </nav>
+    </section>
+    <!-- ENd of secondary Navigation -->
+
+
+    <section class="container content-section">
+        <h2 class="section-header">Shop products</h2>
+
+        <section>
+            <div class="para">
+                <p id="para">Welcome to our online Store buyanything.com! Find what you want here and get it delivered to your home with just a click...
+                </p>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">FOR YOU...</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img class="shop-item-image" src="product_Images/product5.jpg" alt="sunglasses">
+                    <span class="shop-item-title">SUNGLASSES</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19</span>
+                        <button class="btn btn-primary shop-item-button" type="button" aria-label="buy now">BUY NOW</button>
+
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="product_Images/product8.jpg" alt="shoes">
+                    <span class="shop-item-title">SHOES</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$35</span>
+                        <button class="btn btn-primary shop-item-button" type="button" aria-label="buy now">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="product_Images/product1.jpg" alt="t-shirt">
+                    <span class="shop-item-title">T-SHIRT</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14</span>
+                        <button class="btn btn-primary shop-item-button" type="button" aria-label="buy now">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-header">MEN'S CLOTHING</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img class="shop-item-image" src="product_Images/product1.jpg">
+                    <span class="shop-item-title">T-SHIRT</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12</span>
+                        <button class="btn btn-primary shop-item-button" type="button" aria-label="buy now">BUY NOW</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="product_Images/mencloth.jpg">
+                    <span class="shop-item-title">SHIRT</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$16</span>
+                        <button class="btn btn-primary shop-item-button" type="button" aria-label="buy now">BUY NOW</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <img class="shop-item-image" src="product_Images/product3.jpg">
+                    <span class="shop-item-title">JACKET</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$35</span>
+                        <button class="btn btn-primary shop-item-button" type="button" aria-label="buy now">BUY NOW</button>
+                    </div>
+                </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">SALE</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img class="shop-item-image" src="product_Images/product7.jpg">
+                    <span class="shop-item-title">BAG</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$40</span>
+                        <button class="btn btn-primary shop-item-button" type="button" aria-label="buy now">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="product_Images/product6.jpg">
+                    <span class="shop-item-title">CAP</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$10</span>
+                        <button class="btn btn-primary shop-item-button" type="button" aria-label="buy now">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="product_Images/product4.jpg">
+                    <span class="shop-item-title">BOTTLE</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9</span>
+                        <button class="btn btn-primary shop-item-button" type="button" aria-label="buy now">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price" id="grand-total">$0</span>
+            </div>
+        </section>
+
+
+        <section>
+            <br>
+            <div class="fcontainer">
+                <div class="heading">
+                    <h2> ORDER FORM </h2>
+                    <hr>
+                </div>
+                <br>
+                <form name="form" class="form" id="form" method="post" action="#" onsubmit="validateForm()">
+                    <div class="details">
+
+                        <div class="input">
+                            <label for="name">Name:</label><br>
+                            <input class="name-span" type="text" id="name" name="name" placeholder="James Bond" aria-label="your name">
+                            <div class="hint hidden">Fill your name</div>
+                        </div>
+
+                        <div class="input">
+                            <label for="email"> Email: </label><br>
+                            <input class="email-span" type="email" id="email" name="email" placeholder="abc@gmail.com" aria-label="your email">
+                            <div class="hint hidden">Fill your email</div>
+                        </div>
+
+                        <div class="input">
+                            <label for="address"> Address: </label><br>
+                            <input class="address-span" type="text" id="address" name="address" placeholder="No.15,First Chapel lane,Colobo-04" aria-label="your address">
+                            <div class="hint hidden">Fill your address</div>
+                        </div>
+
+                        <div class="input">
+                            <label for="tpno">Telephone no:</label><br>
+                            <input class="munm-span" type="tel" id="tpno" name="tpno" placeholder="+940785469871" aria-label="your number">
+                            <div class="hint hidden">Fill your telephone number</div>
+                        </div>
+
+                        <div class="placeOrder">
+                            <button type="submit" form="form1" value="Place Order" onclick="return formValidation()"> Place Order
+                            </button>
+                        </div>
+
+                        <div class=m essage hidden>
+                            Thank you for choosing buyanything...
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button" aria-label="purchase" onclick="return formValidation()">PURCHASE</button>
+        </section>
+
+
+
+
+        <script>
+            function changeFontSize(n) {
+                var para = document.getElementById('para');
+                para.style.fontSize = n + "px";
+            }
+        </script>
+        <script>
+            function formValidation() {
+
+                let f = document.getElementById('name').value;
+                let e = document.getElementById('email').value;
+                let m = document.getElementById('tpno').value;
+                let a = document.getElementById('address').value;
+
+
+                if (f == '' || f == null || e == '' || e == null || m == '' || m == null || a == '' || a == null) {
+                    alert('Please fill all the fields to continue!');
+                    return false;
+                } else {
+
+                    // let userName = document.getElementById('name').value;
+
+                    // if (userName){
+                    //     document.querySelector('.userName').textContent = userName; 
+                    // };
+
+                    if (f) {
+                        document.querySelector('.name-span').textContent = f;
+                    };
+
+                    if (m) {
+                        document.querySelector('.mnum-span').textContent = m;
+                    };
+
+                    if (e) {
+                        document.querySelector('.email-span').textContent = e;
+                    };
+
+                    if (a) {
+                        document.querySelector('.address-span').textContent = a;
+                    };
+                    return false;
+                    // function summary(){
+                    // if (formValidation()==true){
+                    //     alert("Dear"+ f + "Thank you for purchasing ")
+                    // }
+
+
+                }
+
+            }
+        </script>
+        <section>
+            <div class="developer">
+                <a href="editor.html" target="_blank">
+                    <button id="devoloper-button">
+                        <small><center> Developed by: Sankeetha Elancheliyan</center></small>
+                    </a>
+                    </button>
+            </div>
+        </section>
+</body>
+
+</html>

@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #030303;
+    float: right;
+    margin-top: 25px;
+}
+
+body {
+    background: linear-gradient(to right, #d13e56, #528cc2);
+}
+
+section {
+    background: linear-gradient(to right, #d13e56, #528cc2);
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+}
+
+.personeditor {
+    float: right;
+}
+
+.personeditor.editor {
+    float: right;
+}
+
+section .imgBx {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.container.colomn-two {
+    float: right;
+}
+
+section .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .ContentBox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1
+}
+
+section .ContentBox .formBx {
+    position: sticky;
+    background: rgb(255 255 255 / 0.9);
+    padding: 160px;
+    width: 58%;
+    border-radius: 2%;
+    border: 2px solid black;
+}
+
+section .ContentBox .formBx .logo img {
+    width: 250px;
+    height: 160px;
+    border-radius: 50%;
+    margin: -50px 120px;
+}
+
+section .ContentBox .formBx h2 {
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    border-bottom: 4px solid #26187a;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .ContentBox .formBx .box-1 {
+    margin-bottom: 20px;
+    display: inline;
+}
+
+section .ContentBox .formBx .box-1 span {
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+section .ContentBox .formBx .box-1 input {
+    width: 50%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: 607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+
+section .ContentBox .formBx .box-2 {
+    margin-bottom: 20px;
+    display: inline;
+}
+
+section .ContentBox .formBx .box-2 span {
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+section .ContentBox .formBx .box-2 input {
+    width: 54%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: 607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+
+section .ContentBox .formBx .inputBx-1 {
+    margin-bottom: 20px;
+    display: inline;
+}
+
+section .ContentBox .formBx .inputBx-1 span {
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+section .ContentBox .formBx .inputBx-1 input {
+    width: 60%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: 607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+
+section .ContentBox .formBx .box-3 {
+    margin-bottom: 20px;
+    display: inline;
+}
+
+section .ContentBox .formBx .box-3 span {
+    display: inline;
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+section .ContentBox .formBx .box-3 input {
+    width: 44%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: 607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+
+section .ContentBox .formBx .inputBx {
+    margin-bottom: 20px;
+}
+
+section .ContentBox .formBx .inputBx span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+section .ContentBox .formBx .inputBx input {
+    display: inline;
+    width: 49%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: 607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+
+section .ContentBox .formBx .inputBx-1 span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+section .ContentBox .formBx .inputBx-1 input {
+    width: 40%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: 607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+
+section .ContentBox .formBx .inputBx input[type="submit"] {
+    background: #6252a3;
+    color: #fff;
+    outline: none;
+    margin: 30px 140px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+section .ContentBox .formBx .inputBx input[type="submit"]:hover {
+    background: #4b61a7;
+}
+
+section .ContentBox .formBx .remember {
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section .ContentBox .formBx .inputBx p {
+    color: #030303;
+    margin: -40px 170px;
+    position: absolute;
+}
+
+section .ContentBox .formBx .inputBx a {
+    color: #4b3b8a;
+}
+
+section .ContentBox .formBx h3 {
+    color: #607d8b;
+    text-transform: uppercase;
+    border-bottom: 4px solid #26187a;
+    font-weight: bold;
+    float: right;
+    margin: 40px 170px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    margin-left: 500px;
+}
+
+button {
+    display: block;
+    width: 220px;
+    height: 52px;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 30px 160px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #2b2c2c;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+}
+
+.sci {
+    margin: -200px;
+    background-color: transparent;
+}
+
+section .ContentBox .formBx .sci li {
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    left: 350px;
+    margin: 72px 18px;
+    cursor: pointer;
+    position: relative;
+    padding: 3px;
+}

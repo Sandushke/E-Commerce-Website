@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="Login Page.css">
+    <script type="text/javascript" src="SignupForm.js"></script>
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="editor">
+        <h3><a href="MyEdiorPage.html">Editors Page</a></h3>
+    </div>
+    <section>
+        <div class="ContentBox">
+            <div class="formBx">
+                <div class="logo">
+                    <img src="logo.png" alt="logo of the application">
+                </div>
+                <h2>Login</h2>
+                <form name="LoginForm" onsubmit="return signUpForm()">
+                    <div class="box-1">
+                        <span>FullName&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <input type="text" name="Name">
+                        <span id="namelocation-1" style="color:red"></span>
+                    </div><br>
+
+                    <div class="box-1">
+                        <span>Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <input type="text" name="Address">
+                        <span id="namelocation-2" style="color:red"></span>
+                    </div><br>
+
+                    <div class="box-2">
+                        <span>E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <input type="text" name="E_mail">
+                        <span id="namelocation-3" style="color:red"></span>
+                    </div><br>
+
+                    <div class="box-3">
+                        <label for="Phone"><span>Phone number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></label>
+                        <input type="text" name="Phone_Number" id="Phone" maxlength="10" size="1">
+                        <span id="namelocation-4" style="color:red"></span>
+                    </div>
+                    <bt>
+                        </br>
+
+                        <div class="box-2">
+                            <span>Pasword&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <input type="password" name="Password">
+                        </div><br>
+
+                        <div class="inputBx-1">
+                            <span>Confirm Password&nbsp;&nbsp;</span>
+                            <input type="password" name="Confirm_Password">
+                            <span id="namelocation-5" style="color:red"></span>
+                        </div>
+                        <br><br><br>
+
+                        <h4>Choose Preferneces</h4>
+                        <br>
+                        <input type="checkbox" id="clothing" name="clothing" value="cloth">
+                        <label for="clothing">Fashion</label>
+
+                        <input type="checkbox" id="Electrics" name="Electrics" value="electric">
+                        <label for="Electrics">Electronics</label>
+
+                        <input type="checkbox" id="Appliances" name="Appliances" value="appliance">
+                        <label for="Appliances">Home Appliances</label>
+
+                        <input type="checkbox" id="Jwellery" name="Jwellery" value="jwellery">
+                        <label for="jwelery">Jewellery</label>
+
+                        <input type="checkbox" id="Cosmetics" name="Cosmetics" value="cosmetic">
+                        <label for="Cosmetics">Cosmetics</label>
+
+                        <div class="inputBx">
+                            <input type="submit" value="Sign in" name="">
+                        </div>
+
+                        <div class="inputBx">
+                            <p>Don't have an account?</p>
+                        </div>
+
+                        <div class="button-pos">
+                            <button type="button"><span></span> Continue with Google</button>
+                            <button type="button"><span></span> Continue with facebook</button>
+                        </div>
+                        <ul class="sci">
+                            <li><img src="google.png"></li>
+                            <li><img src="facebook.png"></li>
+                        </ul>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
